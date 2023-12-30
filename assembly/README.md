@@ -1,3 +1,3 @@
-# docs
+# assembly
 
-Here are some useful charts & cheatsheets for x86.
+Here are some useful charts & cheatsheets for low-level assembly languages.
