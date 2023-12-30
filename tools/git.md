@@ -22,6 +22,16 @@ Display current branch and file status:
 git status
 ```
 
+Create a new branch:
+```bash
+git checkout -b [NEW_BRANCH_NAME]
+```
+
+Switch to an existing branch:
+```bash
+git checkout [BRANCH_NAME]
+```
+
 Display current changes:
 ```bash
 git diff
@@ -45,6 +55,21 @@ git log
 Show a concise history of Git commits:
 ```bash
 git log --pretty=oneline
+```
+
+Pull changes from remote repository:
+```bash
+git pull
+```
+
+Pull changes from remote repository, without updating your local branches:
+```bash
+git fetch
+```
+
+Push changes to a remote repository:
+```bash
+git push origin [BRANCH_NAME]
 ```
 
 ## Remote Repository Platforms
