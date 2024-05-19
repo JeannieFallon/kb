@@ -19,11 +19,22 @@ Run & debug:
 | ----------- | ----------- | ----------- |
 | `run` | Run program ||
 | `next` | Advance to next line of execution | `n` |
+| `nexti` | Advance to next machine instruction rather than line of source code | `ni` |
 | `step` | Step into the next line executed in any subroutine | `s` |
-| `backtrace` | Display stack frame for each active subroutine | `bt` |
-| `continue` | Run to next breakpoint | `c` |
-| `info locals` | Show value(s) of local var(s) ||
+| `continue` | Run to next breakpoint | |
+| `until` | Run until next instruction | |
+| `finish` | Run until selected stack frame returns | |
+
+Examind:
+| Command | Description | Shorthand |
+| ----------- | ----------- | ----------- |
+| `info locals` | Show values of local vars ||
 | `print <variable>` | Show value of specified variable | `p <variable>` |
+| `where` or `backtrace` | Show callstack | `bt` |
+| `where full` or `backtrace full` | Show callstack & local vars ||
+| `info args` | Show args to current func in callstack ||
+| `info threads` | Show all threads ||
+| `info signals` | Show all signals and how they are handled ||
 
 
 
