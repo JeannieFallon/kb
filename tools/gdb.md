@@ -25,7 +25,7 @@ Run & debug:
 | `until` | Run until next instruction | |
 | `finish` | Run until selected stack frame returns | |
 
-Examind:
+Examine:
 | Command | Description | Shorthand |
 | ----------- | ----------- | ----------- |
 | `info locals` | Show values of local vars ||
@@ -35,6 +35,8 @@ Examind:
 | `info args` | Show args to current func in callstack ||
 | `info threads` | Show all threads ||
 | `info signals` | Show all signals and how they are handled ||
+| `info frame` | Show current frame ||
+
 
 
 
